@@ -1,5 +1,6 @@
 #include "input.h"
 #include <uav_utils/converters.h>
+
 RC_Data_t::RC_Data_t() {
     rcv_stamp = ros::Time(0);
 

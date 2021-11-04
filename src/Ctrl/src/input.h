@@ -17,8 +17,8 @@ class RC_Data_t {
     double gear;
     double last_mode;
     double last_gear;
-    bool have_init_last_mode{false};
-    bool have_init_last_gear{false};
+    bool have_init_last_mode {false};
+    bool have_init_last_gear {false};
 
     mavros_msgs::RCIn msg;
     ros::Time rcv_stamp;

@@ -28,5 +28,4 @@ private:
 	Eigen::MatrixXd B;
 	Eigen::MatrixXd R;
 };
-
 #endif
