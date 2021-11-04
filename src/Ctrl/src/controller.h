@@ -1,6 +1,8 @@
 #ifndef __CONTROLLER_H
 #define __CONTROLLER_H
 
+#define M_PI 3.1415926
+
 #include <sensor_msgs/Imu.h>
 #include <mavros_msgs/AttitudeTarget.h>
 
